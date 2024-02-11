@@ -1,0 +1,29 @@
+{
+  "annotations": {
+    "changelogDate": "20240211181510"
+  },
+  "clientRootFolder": "ms1",
+  "databaseType": "sql",
+  "dto": "mapstruct",
+  "entityTableName": "student",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "grade",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "microserviceName": "ms1",
+  "name": "Student",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
